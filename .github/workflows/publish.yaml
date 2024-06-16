@@ -6,7 +6,7 @@ on:
       - "v*.*.*"
 jobs:
   test:
-    uses: atropos112/atrka/.github/workflows/test.yaml@main
+    uses: atropos112/atrka/.github/workflows/devenv_test.yaml@main
     secrets: inherit
   publish:
     needs: test
